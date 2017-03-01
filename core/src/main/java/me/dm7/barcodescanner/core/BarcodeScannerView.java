@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
+@SuppressWarnings("deprecation")
 public abstract class BarcodeScannerView extends FrameLayout implements Camera.PreviewCallback  {
     private CameraWrapper mCameraWrapper;
     private CameraPreview mPreview;
